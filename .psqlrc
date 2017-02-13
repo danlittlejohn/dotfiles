@@ -1,0 +1,7 @@
+/* for line completion keep case and fall back to upper */
+\set COMP_KEYWORD_CASE
+
+/* disable pager so all output of result is sent to screen */
+\pset pager off
+/* show null instead of space for clarity */
+\pset null '(null)'
